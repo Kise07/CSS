@@ -1,0 +1,40 @@
+/* #5-- */
+body {
+  font-family: sans-serif;
+}
+
+/* #3-- */
+/* #4-- Changing the Order */
+.highlighted-code {
+  color: green;
+}
+
+/* #1-- */
+#assignment-instructions {
+  font-family: sans-serif;
+  color: blue;
+}
+
+/* Optional attribute Selector-- */
+/* [id] {
+    font-family: sans-serif;
+    color: blue;
+} */
+
+/* #2-- */
+code {
+  font-family: monospace;
+  color: red;
+}
+
+/* #6-- */
+li + li {
+  background: black;
+  color: white;
+}
+
+/* #7-- */
+ol > li {
+  background: black;
+  color: white;
+}
