@@ -5,6 +5,10 @@ var selectPlanButtons = document.querySelectorAll('.plan button');
 var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
 
+// Notations for accessing CSS methods--
+// console.dir(backdrop.style.backgroundImage); // JS Notation
+// console.dir(backdrop.style['background-image']); // JS+CSS Notation
+
 // console.dir(backdrop);
 for (var i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener('click', function () {
